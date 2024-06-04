@@ -1,0 +1,17 @@
+{
+    "cards": [
+      { "id": 1, "color": "pink", "image": "/images/card1.png", "matched": false },
+      { "id": 2, "color": "pink", "image": "/images/card2.png", "matched": false },
+      { "id": 3, "color": "pink", "image": "/images/card3.png", "matched": false },
+      { "id": 4, "color": "pink", "image": "/images/card4.png", "matched": false },
+      { "id": 5, "color": "pink", "image": "/images/card5.png", "matched": false },
+      { "id": 6, "color": "pink", "image": "/images/card6.png", "matched": false },
+      { "id": 7, "color": "blue", "image": "/images/card1.png", "matched": false },
+      { "id": 8, "color": "blue", "image": "/images/card2.png", "matched": false },
+      { "id": 9, "color": "blue", "image": "/images/card3.png", "matched": false },
+      { "id": 10, "color": "blue", "image": "/images/card4.png", "matched": false },
+      { "id": 11, "color": "blue", "image": "/images/card5.png", "matched": false },
+      { "id": 12, "color": "blue", "image": "/images/card6.png", "matched": false }
+    ]
+  }
+  
