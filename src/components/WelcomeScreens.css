@@ -1,0 +1,321 @@
+.welcome-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* background-color: #f0f0f0; */
+  }
+  
+  .welcome-screen {
+    margin: 40px;
+    position: relative;
+  }
+
+ .mondiv {
+
+    width: 600px;
+    
+ }
+
+ .mondiv img{
+    width: 500px;
+ }
+  
+
+
+
+.image-container {
+    position: absolute;
+   
+    width: 450px;
+    
+    top: 30px;
+    left: 300px;
+  }
+
+  .image-container img {
+    width: 350px;
+   
+  }
+
+ 
+  
+   /* .welcome-screen h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 76.38px;
+    
+    color: rgb(17, 174, 198, 1)
+   
+  }  */
+
+  .image-container h1 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+    transform: translate(-30%, -50%);
+     /* Adjust as needed for better visibility */
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 800;
+     
+     
+    color: rgb(17, 174, 198, 1); /* Optional: Adds a background with some transparency for better readability */
+    /* Optional: Adds some padding to the text */
+  }
+
+
+  .welcome-screen button {
+    position: absolute;
+    top: 420px;
+      left: 600px;
+    width: 200px;
+    background: none;
+    border: none;
+  }
+
+
+  /* .nextbtn {
+    position: absolute;
+    top: 420px;
+    left: 500px;
+    width: 200px;
+    background: none;
+    border: none;
+  }
+
+  .welcome-screen2{
+    position: relative;
+  }
+  .welcome-screen2 h1 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    
+    transform: translate(-50%, -50%);
+     /* Adjust as needed for better visibility */
+     /* font-family: "Nunito Sans", sans-serif;
+     font-weight: 800;
+
+  } */ 
+
+
+
+  .welcome-screen2 {
+    margin: 40px;
+    position: relative;
+  }
+
+ .mondiv2 {
+
+    width: 600px;
+    
+ }
+
+ .mondiv2 img{
+    width: 500px;
+ }
+  
+
+
+
+.image-container2 {
+    position: absolute;
+   
+    width: 650px;
+    
+    top: 30px;
+    left: 200px;
+  }
+
+  .image-container2 img {
+    width: 370px;
+   
+  }
+
+ 
+  
+   /* .welcome-screen h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 76.38px;
+    
+    color: rgb(17, 174, 198, 1)
+   
+  }  */
+
+  .image-container2 h1 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+    transform: translate(-30%, -50%);
+     /* Adjust as needed for better visibility */
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 800;
+     
+     
+    color: rgb(17, 174, 198, 1); /* Optional: Adds a background with some transparency for better readability */
+    /* Optional: Adds some padding to the text */
+  }
+
+
+
+  .nextbtn button {
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    width: 200px;
+    background: none;
+    border: none;
+  }
+
+
+  .nav-button {
+    position: absolute;
+    top: -40px;
+    left: -380px;
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+  } 
+  
+
+  .nav-button4 {
+    position: absolute;
+    top: 20px;
+    left: 3px;
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+  }  
+
+
+  .nextbtn4 button {
+    position: absolute;
+    top: 480px;
+    left: 982px;
+    width: 200px;
+    background: none;
+    border: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  
+  
+
+  .instruction-cards {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 1200px;
+    
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .instruction-card {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+
+  .card-container-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Full viewport height */
+    background-color: #f0f0f0; /* Adjust as needed */
+    border-radius: 20%;
+    
+  }
+  
+  .card-o {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px; /* Adjust as needed */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 20%;
+  }
+  
+  .image-container-o {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card-image-o {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .apple-image {
+    position: absolute;
+    top: -5px; /* Adjust as needed */
+    left: 80px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .card-content-o {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .step-number {
+    background-color: #ffc107; /* Adjust as needed */
+    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    top: 180px;
+    left: -5px;
+  }
+  
+  .step-number span {
+    color: white;
+  }
+  
+  h2 {
+    color: #00bfff; /* Adjust as needed */
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  p {
+    color: #777; /* Adjust as needed */
+    margin-top: 5px;
+  }
+  
+ 
+  

@@ -39,7 +39,7 @@ export const Card: React.FC<CardProps> = ({ card, onFlip, flipped }) => {
       {card.matched || flipped ? (
         <img src={card.image} alt="card" />
       ) : (
-        <img src={ card.color==="blue" ?  "../assets/blueheart.png" : "../assets/pinkheart.png"} alt="heart" className="card-back" 
+        <img src={ card.color==="blue" ?  "../assets/blueheart.svg" : "../assets/pinkheart.svg"} alt="heart" className="card-back" 
         style={{
             boxShadow: card.color === "blue" ? " 0px 4px 20.8px 0px rgba(57, 201, 236, 1)" : " 0px 4px 17.2px 0px rgba(251, 131, 167, 1)"
         }}
