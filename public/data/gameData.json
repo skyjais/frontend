@@ -1,17 +1,17 @@
 {
     "cards": [
-      { "id": 1, "color": "pink", "image": "/images/card1.png", "matched": false },
-      { "id": 2, "color": "pink", "image": "/images/card2.png", "matched": false },
-      { "id": 3, "color": "pink", "image": "/images/card3.png", "matched": false },
-      { "id": 4, "color": "pink", "image": "/images/card4.png", "matched": false },
-      { "id": 5, "color": "pink", "image": "/images/card5.png", "matched": false },
-      { "id": 6, "color": "pink", "image": "/images/card6.png", "matched": false },
-      { "id": 7, "color": "blue", "image": "/images/card1.png", "matched": false },
-      { "id": 8, "color": "blue", "image": "/images/card2.png", "matched": false },
-      { "id": 9, "color": "blue", "image": "/images/card3.png", "matched": false },
-      { "id": 10, "color": "blue", "image": "/images/card4.png", "matched": false },
-      { "id": 11, "color": "blue", "image": "/images/card5.png", "matched": false },
-      { "id": 12, "color": "blue", "image": "/images/card6.png", "matched": false }
+      { "id": 1, "color": "pink", "image": "./assets/apple-svgrepo-com.svg", "fruit":"apple", "matched": false },
+      { "id": 2, "color": "pink", "image": "./assets/mango-svgrepo-com.svg", "fruit":"mango", "matched": false },
+      { "id": 3, "color": "pink", "image": "./assets/orange-svgrepo-com.svg", "fruit":"orange", "matched": false },
+      { "id": 4, "color": "pink", "image": "./assets/papaya-svgrepo-com.svg", "fruit":"papaya", "matched": false },
+      { "id": 5, "color": "pink", "image": "./assets/grapes-svgrepo-com.svg", "fruit":"grapes", "matched": false },
+      { "id": 6, "color": "pink", "image": "./assets/dragon-fruit-food-fruit-svgrepo-com.svg", "fruit":"dragon", "matched": false },
+      { "id": 7, "color": "blue", "image": "./assets/leterA.svg", "fruit":"apple", "matched": false },
+      { "id": 8, "color": "blue", "image": "./assets/leterM.svg", "fruit":"mango", "matched": false },
+      { "id": 9, "color": "blue", "image": "./assets/leterO.svg", "fruit":"orange", "matched": false },
+      { "id": 10, "color": "blue", "image": "./assets/leterP.svg", "fruit":"papaya", "matched": false },
+      { "id": 11, "color": "blue", "image": "./assets/leterG.svg", "fruit":"grapes", "matched": false },
+      { "id": 12, "color": "blue", "image": "./assets/leterD.svg", "fruit":"dragon", "matched": false }
     ]
   }
   

@@ -126,8 +126,8 @@ const WelcomeScreens: React.FC<{ onComplete: () => void }> = ({ onComplete }) =>
     </div>
             {/* <div className="instruction-card">Instruction 3</div> */}
             <div className="card-container-o">
-      <div className="card-o">
-        <div className="image-container-o">
+      <div className="card-o" style={{height:"240px"}} >
+        <div className="image- container-o">
           <img src="../assets/duo.svg" alt="Pink Card" className="card-image-o"/>
           {/* <img src="../assets/card1.svg" alt="Apple" className="apple-image"/> */}
         </div>

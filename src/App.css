@@ -73,12 +73,97 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 20px;
+  position: relative;
+  
+  
+}
+
+.nav-button1{
+  position: absolute;
+  top: -20px;
+  left: -290%;
+  background: none;
+  border: none;
+}
+
+/* .nav-button2{
+  position: absolute;
+  top: 2%;
+  left: 85%;
+  background: none;
+  border: none;
+  background: rgba(204,217,26,255);
+  border-radius: 50%;
+} */
+
+.nav-button2 {
+  background: rgba(204,217,26,255);
+  border: none;
+  color:white;
+  padding: 10px 20px;
+  
+  font-weight: bold;
+  border-radius: 50px;
+  position: absolute;
+  left: 600px;
+  top: -10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+
+
+.nav-button2::before,
+.nav-button2::after {
+  content: '';
+  position: absolute;
+  background:rgba(204,217,26,255);
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.nav-button2::before {
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  left: 10px;
+}
+
+.nav-button2::after {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: 10px;
+}
+
+.nav-button2:hover {
+  background: #e0f7ff;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+  color: #007bff;
+}
+
+.nav-button2:hover::before,
+.nav-button2:hover::after {
+  background: #e0f7ff;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
 }
 
 .parent{
   border: 5px solid red;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
+  gap: 80px;
   width: 95%;
   
 }
@@ -96,19 +181,19 @@
 
 .card-parent{
   border: 5px solid black;
-  width: 173px;
-  height: 221px;
+  width: 133px;
+  height: 201px;
  
   
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 180px;
   cursor: pointer;
   perspective: 1000px;
-  padding-top: 50px;
-  padding-left: 40px;
+  padding-top: 10px;
+  padding-left: 7px;
   background-repeat: no-repeat;
   overflow: hidden;
   
@@ -137,7 +222,7 @@
 }
 
 .matched img {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   animation: match-animation 1s ease-in-out;
 }
 

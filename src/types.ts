@@ -4,6 +4,7 @@ export interface CardItem {
     color: 'pink' | 'blue';
     image: string;
     matched: boolean;
+    fruit:string;
   }
   
   export interface GameData {
