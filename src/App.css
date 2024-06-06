@@ -159,7 +159,7 @@
 }
 
 .parent{
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: flex;
   justify-content: center;
   
@@ -180,7 +180,7 @@
 } 
 
 .card-parent{
-  border: 5px solid black;
+  /* border: 5px solid black; */
   width: 133px;
   height: 201px;
  
