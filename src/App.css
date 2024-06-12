@@ -112,7 +112,7 @@
   
   font-weight: bold;
   border-radius: 50px;
-  position: absolute;
+  position: relative;
   left: 600px;
   top: 15px;
   cursor: pointer;
