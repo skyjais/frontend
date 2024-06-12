@@ -1,24 +1,3 @@
-// import React from 'react';
-// import { CardItem } from '../types';
-
-// interface CardProps {
-//   card: CardItem;
-//   onFlip: () => void;
-//   flipped: boolean;
-// }
-
-// export const Card: React.FC<CardProps> = ({ card, onFlip, flipped }) => {
-//   return (
-//     <div className={`card ${card.matched ? 'matched' : ''}`} onClick={onFlip}>
-//       {card.matched || flipped ? (
-//         <img src={card.image} alt="card" />
-//       ) : (
-//         <div className="card-back"></div>
-//       )}
-//     </div>
-//   );
-// };
-// src/components/Card.tsx
 import React from 'react';
 import { CardItem } from '../types';
 

@@ -32,11 +32,11 @@ export const EndScreen: React.FC<EndScreenProps> = ({ bananas , time }) => {
 
     }} >
 
-      <div className="smdiv" style={{position:"relative"}} >
+      <div className="smdiv"  >
       <img src="../assets/final.svg" alt="Banana" style={{width:"1000px", height:"450px"}} />
 
       <h1 style={{ fontFamily: "Nunito Sans, sans-serif",color:"#0011ff",fontWeight:"bold"}} >Congratulations!</h1>
-      <div className="smdiv2" style={{position:"absolute", top:"20%" ,left:"6%"}} >
+      <div className="smdiv2" style={{position:"absolute", top:"25%" ,left:"24.5%"}} >
       <h2 style={{ fontFamily: "Nunito Sans, sans-serif",color:"white", width:"700px", fontSize:"25px", fontWeight:"bold" }} >Earned {bananas} Bananas!</h2>
       <h2 style={{ fontFamily: "Nunito Sans, sans-serif",color:"white", width:"700px",fontSize:"25px",fontWeight:"bold"}} >Time: {Math.floor(time / 60)}:{('0' + time % 60).slice(-2)} sec.</h2>
       </div>
