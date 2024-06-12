@@ -58,19 +58,25 @@ The Memory Matching Game is an interactive web-based game where players flip car
 ## Project Screenshots
 
 - Welcome Screen
+  
   <img src="./public/assets/firstScreen.png"  width="600" >
 
 - Second Screen
+  
   <img src="./public/assets/secondScreen.png"  width="600" >
 
 - Third Screen
+  
   <img src="./public/assets/thirdScreen.png"  width="600">
 
 - Instruction Screen
+  
   <img src="./public/assets/fourScreen.png"  width="600">
 
 - Play Screen
+  
   <img src="./public/assets/fifthScreen.png"  width="600">
 
 - Last Screen
+  
   <img src="./public/assets/fifthScreen.png"  width="600">
