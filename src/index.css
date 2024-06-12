@@ -12,8 +12,8 @@ body html{
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  height: 100%;
+  width: 100wh;
+  height: 100vh;
 }
 
 code {
