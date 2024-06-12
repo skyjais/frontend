@@ -83,10 +83,10 @@ const WelcomeScreens: React.FC<{ onComplete: () => void }> = ({ onComplete }) =>
         </div>
       )}
       {screen === 4 && (
-        <div className="welcome-screen4">
+        <div className="welcome-screen4"  >
           <button className="nav-button4" onClick={prevScreen}><img src="../assets/back.svg" alt=""  /></button>
           {/* <h2>Here’s how you play the game:</h2> */}
-          <div className="instruction-cards">
+          <div className="instruction-cards" >
             {/* <div className="instruction-card">Instruction 1
             <div className="imgdiv"> <img src="" alt="" /> </div>
 
@@ -126,7 +126,7 @@ const WelcomeScreens: React.FC<{ onComplete: () => void }> = ({ onComplete }) =>
     </div>
             {/* <div className="instruction-card">Instruction 3</div> */}
             <div className="card-container-o">
-      <div className="card-o" style={{height:"240px"}} >
+      <div className="card-o" style={{height:"247px"}} >
         <div className="image- container-o">
           <img src="../assets/duo.svg" alt="Pink Card" className="card-image-o"/>
           {/* <img src="../assets/card1.svg" alt="Apple" className="apple-image"/> */}

@@ -88,7 +88,7 @@
 
 .nav-button1{
   position: absolute;
-  top: -20px;
+  top: -2px;
   left: -290%;
   background: none;
   border: none;
@@ -114,7 +114,7 @@
   border-radius: 50px;
   position: absolute;
   left: 600px;
-  top: -10px;
+  top: 15px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: background 0.3s, box-shadow 0.3s;
@@ -243,6 +243,7 @@
   font-size: 24px;
   color: green;
   animation: fade-in-out 2s ease-in-out;
+  z-index: 1000;
 }
 
 @keyframes fade-in-out {
